@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const {
     token,
-} = require('./config.json');
+} = process.env.token
 const client = new Discord.Client();
 const Distube = require('distube');
 const { SpotifyPlugin } = require("@distube/spotify");
