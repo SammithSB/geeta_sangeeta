@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const {
-    token,
+    token
 } = process.env.token
 const client = new Discord.Client();
 const Distube = require('distube');
